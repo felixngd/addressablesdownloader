@@ -1,0 +1,22 @@
+{
+  "name": "com.wolffun.addressables.downloader",
+  "version": "6.1.1",
+  "displayName": "Addressables Downloader",
+  "description": "Asset Downloader for Addressables",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "dependencies": {
+    "com.cysharp.unitask": "2.2.5",
+    "com.unity.addressables": "1.18.19"
+  },
+  "keywords": [
+    "Addressables",
+    "Asset Management",
+    "UniTask",
+    "Unity"
+  ],
+  "author": {
+    "name": "Nguyen Danh Dat"
+  },
+  "type": "library"
+}
