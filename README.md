@@ -27,7 +27,7 @@ private void DisplayStatus(AssetsDownloadStatus status)
 //Bắt đầu download
 public async UniTask StartDownload()
 {
-		Debug.Log($"Download started");
+    Debug.Log($"Download started");
     _downloadPack.TrackProgress(Progress.Create<AssetsDownloadStatus>(DisplayStatus));
     var result = await _downloadPack.StartDownloadAsync();
     Debug.Log($"Download completed with result: {result.IsSuccess}, {result.FailureException}");
